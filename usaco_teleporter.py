@@ -1,0 +1,6 @@
+a,b,x,y = map(int,input().split())
+case1 = abs(b-a)
+case2 = abs(a-x) + abs(b-y)
+case3 = abs(y-a) + abs(b-x)
+short_distance = min(case1,case2,case3)
+print(short_distance)
